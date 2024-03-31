@@ -2,7 +2,7 @@ from http.server import SimpleHTTPRequestHandler, HTTPServer
 
 # Define the directory from which files will be served
 FILE_DIRECTORY = "./"
-IP_ADDRESS = "192.168.43.9"
+IP_ADDRESS = ""
 
 # Define the HTTP request handler class
 class CustomHTTPRequestHandler(SimpleHTTPRequestHandler):
